@@ -1,5 +1,5 @@
 def fibonacci_des(n):
-    if n == 0 or n == 1:
+    if n <= 1:
         return n
 
     dp = [0] * [n + 1]
